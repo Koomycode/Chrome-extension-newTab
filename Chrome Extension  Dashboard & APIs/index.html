@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>Hakoom Tab</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <div class="app" id="app">
+      <div class="app-left">
+        <div class="date-container">
+          <!-- Date content -->
+          <h1 class="time" id="time"></h1>
+
+          <p class="date" id="date"></p>
+        </div>
+
+        <div class="weather-container">
+          <!-- Weather content -->
+
+          <img
+            src="img/Fog.png"
+            alt="Weather Icon"
+            class="weather-icon"
+            id="weather-icon" />
+
+          <h4 class="weather-name" id="weather-name"></h4>
+
+          <h3 class="temp"><span id="temp">0</span>&deg; C</h3>
+        </div>
+
+        <form action="submit" class="search-form" id="search-form">
+          <!-- Google Search Form  -->
+          <input
+            type="text"
+            class="search-input"
+            id="search-input"
+            placeholder="Google search" />
+
+          <button class="search-btn" type="submit">
+            <img src="search.png" class="search-icon" />
+          </button>
+        </form>
+      </div>
+
+      <!-- App Right -->
+
+      <div class="app-right">
+        <div class="links-container">
+          <!-- Personal Links content -->
+
+          <a href="https://github.com/Koomycode" class="link-container">
+            <img src="icons/Github.png" class="link-icon" />
+            <span class="link-name">Github</span>
+          </a>
+
+          <a
+            href="https://app.netlify.com/teams/koomycode/overview?_ga=2.215368724.2008770944.1674219814-1511312964.1674219814"
+            class="link-container">
+            <img src="icons/Netlify.png" class="link-icon" />
+            <span class="link-name">Netlify</span>
+          </a>
+
+          <a
+            href="https://www.figma.com/files/drafts?fuid=1272171207658254497"
+            class="link-container">
+            <img src="icons/Figma.png" class="link-icon" />
+            <span class="link-name">Figma</span>
+          </a>
+
+          <a
+            href="https://console.firebase.google.com/?pli=1"
+            class="link-container">
+            <img src="icons/Firebase.png" class="link-icon" />
+            <span class="link-name">Firebase</span>
+          </a>
+
+          <a href="https://vitejs.dev/guide/" class="link-container">
+            <img src="icons/Vite.png" class="link-icon" />
+            <span class="link-name">Vite</span>
+          </a>
+
+          <a href="https://fonts.google.com/" class="link-container">
+            <img src="icons/GoogleFonts.png" class="link-icon" />
+            <span class="link-name">Fonts</span>
+          </a>
+
+          <a
+            href="https://fontawesome.com/kits/53af5e9bb6/setup"
+            class="link-container">
+            <img src="icons/Fontawesome.png" class="link-icon" />
+            <span class="link-name">Icons</span>
+          </a>
+
+          <a
+            href="https://tailwindcss.com/docs/installation"
+            class="link-container">
+            <img src="icons/Tailwind.png" class="link-icon" />
+            <span class="link-name">Tailwind</span>
+          </a>
+
+          <a href="https://coolors.co/palettes/trending" class="link-container">
+            <img src="icons/Coolors.png" class="link-icon" />
+            <span class="link-name">Coolors</span>
+          </a>
+
+          <a href="https://www.remove.bg/" class="link-container">
+            <img src="icons/RemoveBg.png" class="link-icon" />
+            <span class="link-name">Remove BG</span>
+          </a>
+
+          <a href="https://www.iloveimg.com/crop-image" class="link-container">
+            <img src="icons/CropIMG.png" class="link-icon" />
+            <span class="link-name">Crop Img</span>
+          </a>
+
+          <a href="https://www.youtube.com/" class="link-container">
+            <img src="icons/Youtube.png" class="link-icon" />
+            <span class="link-name">Youtube</span>
+          </a>
+
+          <a
+            href="https://scrimba.com/dashboard#overview"
+            class="link-container">
+            <img src="icons/Scrimba.png" class="link-icon" />
+            <span class="link-name">Scrimba</span>
+          </a>
+
+          <a href="https://chat.openai.com/" class="link-container">
+            <img src="icons/ChatGPT.png" class="link-icon" />
+            <span class="link-name">ChatGPT</span>
+          </a>
+        </div>
+      </div>
+
+      <h2 class="image-author" id="image-author"></h2>
+
+      <img src="" id="bg-img" class="bg-img" />
+    </div>
+  </body>
+</html>

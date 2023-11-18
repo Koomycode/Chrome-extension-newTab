@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Tab",
+  "version": "1.0",
+  "description": "Custom new tab extension",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "geolocation"],
+  "icons": {
+    "48": "img/logo.png"
+  },
+  "action": {
+    "default_icon": "img/logo.png"
+  }
+}
